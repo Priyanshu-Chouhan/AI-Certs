@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Certs Event</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/images.png" alt="AI Certs">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to the AI Certs Event</h1>
+            <p>Join us for an insightful event on AI certifications.</p>
+            <div id="countdown"></div>
+        </section>
+
+        <section id="about">
+            <h2>About the Event</h2>
+            <p>Details about the event...</p>
+        </section>
+
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <div class="collapsible">
+                <button class="collapsible-btn">Day 1</button>
+                <div class="collapsible-content">
+                    <p>Details for Day 1...</p>
+                </div>
+                <button class="collapsible-btn">Day 2</button>
+                <div class="collapsible-content">
+                    <p>Details for Day 2...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="speakers">
+            <h2>Speakers</h2>
+            <div class="tabs">
+                <button class="tablink active" onclick="openTab(event, 'Speaker1')">Speaker 1</button>
+                <button class="tablink" onclick="openTab(event, 'Speaker2')">Speaker 2</button>
+                <div id="Speaker1" class="tabcontent">
+                    <h3>Speaker 1 Bio</h3>
+                    <p>Details about Speaker 1...</p>
+                </div>
+                <div id="Speaker2" class="tabcontent">
+                    <h3>Speaker 2 Bio</h3>
+                    <p>Details about Speaker 2...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="register">
+            <h2>Register Now</h2>
+            <form>
+                <!-- Registration form fields -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AI Certs</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

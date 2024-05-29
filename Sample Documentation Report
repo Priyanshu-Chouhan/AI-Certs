@@ -1,0 +1,24 @@
+# AI Certs Event Landing Page Development Report
+
+## Overview
+This document outlines the development process of the AI Certs event landing page, including design, implementation, interactivity, testing, and deployment.
+
+## Design Mockup
+The mockup was created using Figma and reviewed for alignment with AI Certs branding guidelines. The mockup included layouts for desktop, tablet, and mobile views.
+
+## HTML/CSS Implementation
+The HTML structure was built using semantic elements, and the CSS was written to ensure responsiveness across all devices using media queries.
+
+## Interactivity
+JavaScript was used to implement a countdown timer, collapsible schedule sections, and tabbed speaker bios. The interactivity enhances user experience by providing dynamic content.
+
+## Testing and Validation
+The page was tested across multiple browsers and devices to ensure compatibility. Both HTML and CSS were validated using W3C validation tools.
+
+## Challenges and Solutions
+- Ensuring cross-browser compatibility: Used feature detection and polyfills where necessary.
+- Responsive design: Iteratively adjusted CSS and tested on various devices to achieve the desired responsiveness.
+
+## Live Link
+The landing page is hosted on GitHub Pages and can be accessed at: [Live Page URL]
+
